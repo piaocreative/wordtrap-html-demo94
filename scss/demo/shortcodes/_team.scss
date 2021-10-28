@@ -1,0 +1,49 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: team.scss
+
+-----------------------------------------------------------------------------------*/
+
+.team {
+	position: relative;
+	margin-bottom: 1.375rem;
+	img{
+		object-fit: cover;
+		width:100%;
+	}
+	.team-info {
+		width: 100%;
+		padding:2.1rem 1rem 0 1rem;
+
+		font-family: $headline-title;
+
+		@media (min-width: 992px){
+			// text-align: left;
+		}
+
+		.team-name {
+			display:flex;
+			justify-content: space-between;
+			line-height: 1;
+			h3{
+				font-size: $h3-font-size;
+				font-family: inherit;
+
+				margin-bottom: 0.2rem;
+			}
+			a{
+				font-family: inherit;
+				font-size: $h4-font-size;
+			}
+		}
+
+		.team-detail {
+			font-size: $h5-font-size;
+			line-height: 1;
+			margin-bottom: 0;
+		}
+	}
+
+	
+}

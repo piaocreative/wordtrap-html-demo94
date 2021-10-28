@@ -1,0 +1,128 @@
+
+/* ----------------------------------------------------------------
+
+	widgets.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Widgets
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for widgets. Thanks!
+-----------------------------------------------------------------*/
+
+
+.widget {
+	margin-bottom: 1.5rem;
+	justify-content: space-between;
+	@include media-breakpoint-down(xl) {
+		margin-bottom: 0px;
+	}
+	img{
+		margin-bottom: 20px;
+	}
+	.widget-desc{
+		font:14px/24px $headline-title;
+
+	}
+	
+	
+	.widget-title{
+		font:18px $headline-title;
+		margin-bottom: 18px;
+		color:white;
+		text-transform: uppercase;
+	}
+	.widget-link{
+		a{
+			color:white;
+			font:14px/28px $headline-title;
+		}
+	}
+	.social-icons{
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 20px;
+		i{
+			color:white;
+			padding:0 25px 0 0;
+		}
+
+	}
+	.widget-mark{
+		margin-top:40px;
+	}
+
+}
+.widget-spacer{
+	margin-left:20% ;
+	@media(max-width: 1199px){
+		margin-left:0px;
+	}
+}
+.widget-align-center{
+	@include media-breakpoint-up(xl) {
+		text-align: center;	
+	}
+}
+
+.widget-border{
+	border-right: 2px solid #3f3f3f;
+	@media(max-width: 1199px){
+		border-right: none;
+	}
+}
+
+.widget-width-13{
+	width:13%;
+	@media(max-width: 1199px){
+		width:100%;
+	}
+}
+.widget-width-15{
+	width:15%;
+	@media(max-width: 1199px){
+		width:25%;
+	}
+	@include media-breakpoint-down(md) {
+		width: 50%;
+	}
+}
+.widget-width-17{
+	width:17%;
+	@media(max-width: 1199px){
+		width:25%;
+	}
+	@include media-breakpoint-down(md) {
+		width: 50%;
+	}
+}
+.widget-width-20{
+	width:20%;
+	@include media-breakpoint-down(md) {
+		width: 50%;
+	}
+}
+.widget-flex-grow-8{
+	flex-grow: 8;
+}
+.widget-flex-grow-2{
+	flex-grow:2;
+}
+.widget-lg-w-full{
+	@media(max-width: 1199px){
+		width:100%;
+	}
+}
+
+.payment-icon {
+	img {
+		margin-top: 1.5rem;
+		margin-right: 1.5rem;
+	}
+}

@@ -1,0 +1,225 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here extra styles for demo. Thanks!
+-----------------------------------------------------------------*/
+.map-wrapper{
+    width:49.98%;   //col-6
+    margin-left:8.33%;
+	padding-right:0px;
+	@media(max-width:1365px){
+		width:100%;
+		margin-left:0px;
+
+	}
+	img{
+		width:90%;
+		@media(max-width:1365px){
+			width:100%;
+		}
+	}
+
+}
+.contact-wrapper {
+    width:33.32%;	//col-4
+	padding:0px;
+	@media(max-width:1365px){
+		width:100%;
+		// margin-left:1rem;
+
+	}
+	.contact-title {
+		font-size: $h1-font-size;
+		font-family: $headline-title;
+		font-weight: 600;
+		color: $secondary;
+		line-height: 4rem;
+		@media(max-width: 992px){
+			font-size:$h2-font-size;
+			margin-bottom:0px;
+		}
+	}
+	.contact-desc{
+		font:16px/22px $headline-title !important;
+		margin-bottom: 40px;
+	}
+	.contact-form-sm{
+		height:60px;
+	}
+	.contact-form-lg{
+		height:200px;
+	}
+}
+
+.about-bg {
+	background-image: radial-gradient(circle at 25% 30%, #8d6b59, #5d3b31)
+}
+
+.feedback {
+	input {
+		color: $body-color;
+		background-color: $third-color;
+	}
+
+	button {
+		background-color: $third-color;
+		
+		i {
+			font-size: 1.25rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+.error-404 {
+	h2 {
+		color: $primary;
+		font-size: 3rem;
+		line-height: 4rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+	
+	p {
+		color: #2f363a;
+		font-size: 1.3125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+		margin-bottom: 0;
+	}
+	
+	span {
+		color: $primary;
+		font-size: 1.125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+	}
+}
+
+.col-37 {
+	width: 100%;
+
+	@media (min-width: 1600px) {
+		width: 37%;
+	}
+}
+
+.col-63 {
+	width: 100%;
+
+	@media (min-width: 1600px) {
+		width: 63%;
+	}
+}
+
+.choose-title {
+	padding: 1rem 2rem;
+	justify-content: center;
+	text-align: center;
+	
+	@media (min-width: 992px) {
+		justify-content: start;
+		text-align: left;
+		padding: 1rem 2.5rem;
+	}
+	
+	@media (min-width: 1600px) {
+		justify-content: end;
+		text-align: left;
+		padding: 3rem 5rem;
+	}
+
+	h3 {
+		color: #282828;
+		font-size: $h3-font-size;
+		line-height: 2.3rem;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+}
+
+.choose-content {
+	padding-left: 2.34375rem;
+	padding-right: 2.4rem;
+	
+	@media (min-width: 1600px) {
+		padding-right: 8rem;
+	}
+
+	span {
+		color: #282828;
+		font-size: $h5-font-size;
+		line-height: 1.5rem;
+		font-weight: 400;
+	}
+}
+
+.subscribe-btn{
+	width:90%;
+	background-color: black;
+	height:60px;
+	border:none;
+	color:white;
+	display: inline;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+	
+}
+.subscribe-text{
+	font: 13px $headline-title;
+}
+.contact-heading-wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	align-items:center;
+	margin-bottom: 2rem;
+
+	.contact-heading{
+		font:60px/60px $headline-title;
+		font-weight: 600;
+	}
+
+	.status{
+		vertical-align: middle;
+		span{
+			font:1rem 'Inter';
+		}
+
+		h1{
+			font-size: 2.21875rem;
+			font-weight: 500;
+			line-height: 1;
+		}
+	}
+}
+
+.error-404 {
+	position: relative;
+	
+	.btn {
+		position: absolute;
+		bottom: 1rem;
+		left: 50%;
+		transform: translateX(-50%);
+		width: fit-content;
+
+		@include media-breakpoint-up(lg) {
+				bottom: 13rem;
+		}
+
+	}
+}
