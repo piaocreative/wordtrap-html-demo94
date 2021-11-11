@@ -16,36 +16,14 @@
 
 #footer {
 	background-color: #151515 !important;
-	hr {
-		background-color: #5c5b59;
-		margin: 2.5rem 0;
-	}
-	&.error-footer{
-		position: absolute;
-		top:990px;
-	}
-}
-
-#footer-top {
-	padding-top: 1.35rem;
-	font-size: 0.685rem;
-	padding-bottom: 1.35rem;
-
-	.signup {
-		text-align: center;
-
-		@media (min-width: 992px){
-			text-align: right;
-		}
-	}
 }
 
 #footer-main {
-	padding-top: 3.75rem;
-	font-size: 0.685rem;
-	padding-bottom: 1rem;
+	padding-top: 4.375rem;
+	padding-bottom: 2rem;
 }
 
 #footer-bottom {
+	padding-top: 1.5rem;
 	padding-bottom: 3rem;
 }

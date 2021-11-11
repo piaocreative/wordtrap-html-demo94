@@ -17,48 +17,19 @@
 
 
 #header {
-	&.has-img{
-		background-image: url(../images/banner/banner_bg.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		width:100%;
-	}
-	&.light-grey{
-		background-color: #dbdbd8;
+	z-index: 1;
+
+	@include media-breakpoint-up(lg) {
+		background-color: transparent;
+
+		& + #content,
+		& + #error-404 {
+			position: relative;
+			top: -$header-height;
+			margin-bottom: -$header-height;
+		}
 	}
 	
-}
-#headline{
-	h2 {
-        color: #151515;
-		font:70px/80px $headline-title;
-		font-weight: normal;
-		margin-top:100px;
-		letter-spacing: -3px;
-		@media (max-width:1366px){
-			font-size:50px;
-		}
-    }
-    p{
-        font-family: $headline-title;
-        font-size:0.875rem;
-    }
-    button{
-        background-color:#1d1b1b;
-        border-style: none;
-        border-radius:7px;
-        width:200px;
-        height:60px;
-        color:white;
-		font-family: $headline-title;
-		margin-bottom: 160px;
-        &:hover{
-            background-color: #1f1f1f;
-		}
-		@media(max-width: 1199px){
-			margin-bottom: 30px;
-		}
-    }
 }
 
 /* ----------------------------------------------------------------
@@ -82,6 +53,7 @@
 
 .navbar-brand {
 	margin-right: 3.75rem;
+	z-index: 10;
 
 	img {
 		width: 6.5625rem;
@@ -155,27 +127,11 @@
 
 
 #top-btns {
-	margin-right:8.33%;
-	padding-right:1rem;
-	padding-left:1rem;
-	width: 8.33%;
-	@media (max-width: 1199px){
-		padding-top:1rem;
-		padding-bottom:1rem;
-
-	}
-	@media (min-width: 1200px) {
-		padding-left: 1.375rem;	
-	}
 	.nav-item {
 		margin-right: 1rem;
 
-		@media (min-width: 1200px) {
-			margin-right: 0;
-		}
 		a {
 			padding:0px;
-			// margin-right:50px;
 		}
 	}
 
@@ -184,9 +140,6 @@
 		font-size: $top-btn-font-size;	
 		line-height: 1;
 		float:right;
-		@media (min-width: 1200px) {
-			padding: 0 0.9375rem;
-		}
 
 		&:hover {
 			color: $primary;
@@ -199,43 +152,14 @@
 	border-style: none;
 	align-items:center;
 	width: 280px;
-	height:40px;
 	border-color:#e8e5e5;
-	@media (max-width:1199px){
-		background-color: #fff;
-		width: 100%;
-	}
-	.search{
-		border-style:hidden;
-		background-color: inherit ;
-		width: calc(100% - 40px);
-		@media (max-width:1199px){
-			background-color: #fff;
-			width: calc(100% - 40px);
-
-		}
-	}
-	
 }
-/* ----------------------------------------------------------------
-	Search
------------------------------------------------------------------*/
-// #search{
-// 	width: 280px;
-// 	height:40px;
-// 	box-sizing: border-box;
-// 	border: 1px solid #ccc;
-// 	border-radius: 4px;
-// 	font-size: 13px;
-// }
-/* ----------------------------------------------------------------
-	Top Links
------------------------------------------------------------------*/
+
 #navbarCollapse{
 	z-index:9999;
 }
+
 #top-links {
-	
 	.nav-item {			
 		@media (min-width: 1200px) {
 			padding-right: 1.875rem;		
@@ -270,7 +194,9 @@
 		width: 100%;		
 		margin: 0;
 		border-top: 3px solid $theme-color;
+
 		@include border-radius(0);
+		
 		@include box-shadow(0 0 5px -1px rgba($black, 0.2));
 
 		@media (min-width: 1200px) {

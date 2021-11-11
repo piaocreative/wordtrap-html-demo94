@@ -1,0 +1,16 @@
+
+.error-404 {
+	position: relative;
+	
+	.btn {
+		position: absolute;
+		bottom: 1rem;
+		left: 50%;
+		transform: translateX(-50%);
+		width: fit-content;
+
+		@include media-breakpoint-up(lg) {
+				bottom: 13rem;
+		}
+	}
+}

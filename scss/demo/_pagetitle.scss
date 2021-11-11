@@ -40,3 +40,20 @@
 		color: $primary;
 	}
 }
+
+.breadcrumb {
+	ul {
+		li {
+			a {
+				font-size: 0.9375rem;
+				font-weight: 500;
+				color: #7f7f7f;
+
+				&.active {
+					color: $theme-color;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

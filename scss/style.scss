@@ -26,12 +26,11 @@
 
 
     // Content Blocks
-    @import "demo/topbar";
     @import "demo/header";
     @import "demo/banner";
     @import "demo/blog";
     @import "demo/shop";
-    @import "demo/portfolio";
+    @import "demo/404";
 
 
     // Footer
@@ -64,9 +63,6 @@
 
     // Extras
     @import "demo/extras";
-
-    //Contact
-    @import "demo/contact";
 }
 
 @font-face {

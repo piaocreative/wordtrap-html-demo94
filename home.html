@@ -45,13 +45,13 @@
 
             <div id="header-wrap">
 
-                <nav class="navbar navbar-expand-xl navbar-light ">
+                <nav class="navbar navbar-expand-xl navbar-light">
 
-                    <div class="container-fluid px-0">
+                    <div class="container">
 
                         <!-- Logo
                         ============================================= -->
-                        <a href="index.html" class=" offset-1" data-dark-logo="images/logo.png">
+                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
                             <img src="images/logo.png" alt="Saler Logo">
                         </a>
 
@@ -71,8 +71,8 @@
                             <nav id="primary-menu" class="offset-1 ">
                                 <form action="#" class="mb-0">
                                     <div class="input-group border rounded-5">
-                                        <i class="fas fa-search mx-2"></i>
-                                        <input type="text" class="search " placeholder="Search">
+                                        <i class="fas fa-search ms-4"></i>
+                                        <input type="text" class="form-control bg-transparent border-0 " placeholder="Search">
                                     </div>
                                 </form>
                                 <ul class="navbar-nav">
@@ -92,7 +92,7 @@
                             <!-- Top Buttons
                             ============================================= -->
                             <div id="top-btns" class="offset-1">
-                                <ul class="navbar-nav d-flex justify-content-between flex-row">
+                                <ul class="navbar-nav d-flex justify-content-between flex-row gap-3">
                                     <li class="nav-item">
                                         <a href="#" class="nav-link "><i class="far fa-heart"></i></a>
                                     </li>
@@ -112,27 +112,9 @@
                     </div>
 
                 </nav>
-
-                <div id="headline" class="col-xl-3 offset-xl-2 offset-sm-1 ">
-                    <h2>
-                        A Completely Natural Wood Armchair
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                    </p>
-                    <button class="scale-small">Go To Catelogue</button>
-                </div>
             </div><!-- #header-wrap -->
 
         </header><!-- #header -->
-
-        <!-- Banner
-		============================================= -->
-        <section id="banner">
-            <!-- <img src="images/banner/banner_bg.png" class="img-fluid"> -->
-        </section><!-- #banner -->
 
         <!-- Content
 		============================================= -->
@@ -140,207 +122,190 @@
 
             <div class="content-wrap">
 
+                 <!-- Banner
+                ============================================= -->
+                <section id="banner">
+                    <img src="images/banner/banner_bg.png" class="img-fluid">
+                </section><!-- #banner -->
+
                 <!-- Features
                 ============================================= -->
                 <div class="section">
 
-                    <div class="container-fluid">
+                    <div class="container">
 
-                        <div class="heading-block">
-                            <h2 class="title col-auto">Our Products</h2>
-                            <hr class="dash offset-1">
+                        <div class="heading-block d-flex align-items-center">
+                            <h2 class="title">Our Products</h2>
                             <a href="#">See All Products</a>
                         </div>
 
-                        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-5 product-container">
-                            <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5 gy-5 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
+                        <div class="row">
+
+                            <div class="col-lg">
+
                                 <div class="product ">
                                     <div class="product-details">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <div class="me-1">
-                                                <a href="#">
-                                                    <h4 class="product-title">Boca Navi</h4>
-                                                </a>
-                                            </div>
-                                            <div class="me-1">
-                                                <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                            </div>
+                                            <h4 class="product-title">Boca Navi</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                         </div>
                                         <div class="product-categories">
                                             <a href="#">Armchair </a>
                                         </div>
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/product1.png" alt="Product Image"
-                                                    class="img-fluid"></a>
+                                            <a href="#"><img src="images/shop/product1.png" alt="Product Image" class="img-fluid"></a>
                                         </div>
-                                        <div class="product-description">
+                                        <p class="fs-6 lh-base mt-4 mb-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                             tempor incididunt ut labore et dolore magna
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between product-footer">
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
                                             <div class="product-price">
                                                 $199
                                             </div>
-                                            <div class="add-to-cart">
-                                                <button>Add To Cart</button>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5 gy-5 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
-                                <div class="product">
-                                    <div class="sale-mark">
-                                        <div class="product-details">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="me-1">
-                                                    <a href="#">
-                                                        <h4 class="product-title">Boca Navi</h4>
-                                                    </a>
-                                                </div>
-                                                <div class="me-1">
-                                                    <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="product-categories">
-                                                <a href="#">Armchair </a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="#"><img src="images/shop/product2.png" alt="Product Image"
-                                                        class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et
-                                                dolore magna
-                                            </div>
-                                            <div
-                                                class="d-flex align-items-center justify-content-between product-footer">
-                                                <div class="product-price">
-                                                    $199
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button>Add To Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5 gy-5 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
-                                <div class="product ">
-                                    <div class="new-mark">
-                                        <div class="product-details">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="me-1">
-                                                    <a href="#">
-                                                        <h4 class="product-title">Boca Navi</h4>
-                                                    </a>
-                                                </div>
-                                                <div class="me-1">
-                                                    <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="product-categories">
-                                                <a href="#">Armchair </a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="#"><img src="images/shop/product3.png" alt="Product Image"
-                                                        class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et
-                                                dolore magna
-                                            </div>
-                                            <div
-                                                class="d-flex align-items-center justify-content-between product-footer">
-                                                <div class="product-price">
-                                                    $199
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button>Add To Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5 gy-5 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
-                                <div class="product ">
-                                    <div class="new-mark">
-                                        <div class="product-details">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="me-1">
-                                                    <a href="#">
-                                                        <h4 class="product-title">Boca Navi</h4>
-                                                    </a>
-                                                </div>
-                                                <div class="me-1">
-                                                    <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="product-categories">
-                                                <a href="#">Armchair </a>
-                                            </div>
-                                            <div class="product-image">
-                                                <a href="#"><img src="images/shop/product4.png" alt="Product Image"
-                                                        class="img-fluid"></a>
-                                            </div>
-                                            <div class="product-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et
-                                                dolore magna
-                                            </div>
-                                            <div
-                                                class="d-flex align-items-center justify-content-between product-footer">
-                                                <div class="product-price">
-                                                    $199
-                                                </div>
-                                                <div class="add-to-cart">
-                                                    <button>Add To Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5 gy-5 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
+
+                            <div class="col-lg">
+
                                 <div class="product ">
                                     <div class="product-details">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <div class="me-1">
-                                                <a href="#">
-                                                    <h4 class="product-title">Boca Navi</h4>
-                                                </a>
-                                            </div>
-                                            <div class="me-1">
-                                                <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                            </div>
+                                            <h4 class="product-title">Armchair DYX</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                         </div>
                                         <div class="product-categories">
                                             <a href="#">Armchair </a>
                                         </div>
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/product5.png" alt="Product Image"
-                                                    class="img-fluid"></a>
+                                            <a href="#"><img src="images/shop/product2.png" alt="Product Image" class="img-fluid"></a>
                                         </div>
-                                        <div class="product-description">
+                                        <p class="fs-6 lh-base mt-4 mb-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et
-                                            dolore magna
-                                        </div>
-                                        <div class=" product-footer">
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
                                             <div class="product-price">
-                                                $199
+                                                <del>$699</del>
+                                                $350
                                             </div>
-                                            <div class="add-to-cart">
-                                                <button>Add To Cart</button>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="onsale">Sale</div>
                                 </div>
+                                
+
                             </div>
+
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Armchair DYX</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-categories">
+                                            <a href="#">Curbstone</a>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product3.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                <del>$699</del>
+                                                $350
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="onsale">Sale</div>
+                                </div>
+                                
+
+                            </div>
+
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Armchair DYX</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-categories">
+                                            <a href="#">Curbstone</a>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product4.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                $699
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="onnew">New</div>
+                                </div>
+                                
+
+                            </div>
+                            
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Bed MX 41</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-categories">
+                                            <a href="#">Bed</a>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product5.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                $127
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="onnew">New</div>
+                                </div>
+                                
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -349,622 +314,642 @@
 
                 <!-- Product Categories
                 ============================================= -->
-                <div class="container-fluid ps-0 pe-0">
-                    <div class="heading-block">
-                        <h2 class="title col-auto">Our Categories</h2>
-                        <hr class="dash offset-1">
-                        <a href="#">See All Categories</a>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
+                <div class="section pt-0">
 
-                        <div class="col">
+                    <div class="container">
 
-                            <div class="category">
-                                <a href="#">
-                                    <div class="category-image">
-                                        <img src="images/shop/category1.png" alt="Category Image" class="img-full">
-                                    </div>
-                                    <div class="category-desc">
-                                        <div class="title">
-                                            Bathroom
-                                        </div>
-                                        <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
+                        <div class="heading-block d-flex align-items-center">
+                            <h2 class="title">Our Categories</h2>
+                            <a href="#">See All Categories</a>
                         </div>
-                        <div class="col">
-
-                            <div class="category">
-                                <a href="#">
-                                    <div class="category-image">
-                                        <img src="images/shop/category2.png" alt="Category Image" class="img-full">
-                                    </div>
-                                    <div class="category-desc">
-                                        <div class="title">
-                                            Living Room
+    
+                        <div class="row g-0">
+    
+                            <div class="col-lg">
+    
+                                <div class="category">
+                                    <a href="#">
+                                        <div class="category-image">
+                                            <img src="images/shop/category1.png" alt="Category Image" class="img-full">
                                         </div>
-                                        <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore
-                                            et dolore magna
+                                        <div class="category-desc">
+                                            <h4 class="title">Bathroom</h4>
+                                            <div class="content text-white-50">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna
+                                            </div>
                                         </div>
-                                    </div>
-                                     
-                                </a>
+                                    </a>
+                                </div>
+    
                             </div>
-                        </div>
-                        <div class="col">
-
-                            <div class="category">
-                                <a href="#">
-                                    <div class="category-image">
-                                        <img src="images/shop/category3.png" alt="Category Image" class="img-full">
-                                    </div>
-                                    <div class="category-desc">
-                                        <div class="title">
-                                            Kitchen
+                            <div class="col-lg">
+    
+                                <div class="category">
+                                    <a href="#">
+                                        <div class="category-image">
+                                            <img src="images/shop/category2.png" alt="Category Image" class="img-full">
                                         </div>
-                                        <div class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore
-                                            et dolore magna
+                                        <div class="category-desc">
+                                            <h4 class="title">Living Room</h4>
+                                            <div class="content text-white-50">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore
+                                                et dolore magna
+                                            </div>
                                         </div>
-                                    </div>
-                                     
-                                </a>
+                                         
+                                    </a>
+                                </div>
                             </div>
-
+                            <div class="col-lg">
+    
+                                <div class="category">
+                                    <a href="#">
+                                        <div class="category-image">
+                                            <img src="images/shop/category3.png" alt="Category Image" class="img-full">
+                                        </div>
+                                        <div class="category-desc">
+                                            <h4 class="title">Kitchen</h4>
+                                            <div class="content text-white-50">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore
+                                                et dolore magna
+                                            </div>
+                                        </div>
+                                         
+                                    </a>
+                                </div>
+    
+                            </div>
+    
                         </div>
-
+    
                     </div>
 
                 </div><!-- #product_categories -->
 
                 <!-- About Us
                 ============================================= -->
-                <div class="container-fluid section-padding-top about-us">
-                    <div class="heading-block ">
-                        <h2 class="title col-auto ">About Us</h2>
-                    </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-1 g-0">
-                        <div class=" col-xl-3 px-0 offset-xl-1">
-                            <div class="left-tile offset-xl-1 ms-0 ">
-                                <div class="title">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                </div>
-                                <div class="body row flex flex-wrap">
-                                    <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                        gravida. Risus commodo viverra maecenas accumsan
-                                    </div>
-                                    <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 px-0 img">
-                                        <img src="images/shop/about_us_modern_small_bathroom.png" alt="Product Image"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="footer-img">
-                                    <img src="images/shop/about_us_red_chair.png" alt="Product Image" class="img-fluid">
-                                </div>
-                            </div>
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="heading-block d-flex align-items-center">
+                            <h2 class="title">Our Products</h2>
+                            <a href="#">Know more About Us</a>
                         </div>
-                        <div class=" col-xl-8  px-0 ">
-                            <div class="right-tile">
-                                <div class="row px-0 g-0 flex justify-content-between">
-                                    <div class="col-md-12 col-sm-12 col-lg-12 col-xl-6 px-0">
-                                        <div class="title">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
+
+                        <div class="row">
+
+                            <div class="col-lg-4">
+
+                                <div class="p-5 bg-light position-relative h-100">
+                                    <h4 class="mb-4 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h4>
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <p class="fw-medium lh-base mb-lg-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan </p>
                                         </div>
-                                        <div class="desc ">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur.
+
+                                        <div class="col-lg-6">
+                                            <img src="./images/shop/about_us_modern_small_bathroom.png" class="img-full" alt="">
                                         </div>
                                     </div>
-                                    <img src="images/shop/about_us_bookroom.png" alt="Product Image"
-                                        class="col-md-12 col-sm-12 col-lg-12 col-xl-6 px-0 img1">
-                                </div>
-                                <div class="row px-0 g-0">
-                                    <img src="images/shop/about_us_kitchen.png" alt="Product Image"
-                                        class="col-md-12 col-sm-12 col-lg-12 col-xl-4 img2 px-0 ">
-                                    <div class="col-md-12 col-sm-12 col-lg-12 col-xl-8  pe-0 ">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna
-                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                            nisi ut aliquip ex ea commodo consequat.
-                                            <br />
-                                            <br />
 
-                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                            eu fugiat nulla pariatur. Excepteur
-                                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                            mollit anim id est laborum.
-                                            <br />
-                                            <br />
-
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                            dicta sunt explicabo.
-                                            <br />
-                                            <br />
-
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                                            sed quia consequuntur magni dolores eos
-                                            qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                            ipsum quia dolor sit amet, consectetur,
-                                            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                                            dolore magnam aliquam quaerat
-                                            voluptatem.
-                                        </p>
+                                    <div class="about-thumbnail mt-4">
+                                        <img src="images/shop/about_us_red_chair.png" alt="Product Image" class="img-fluid">
                                     </div>
                                 </div>
+
                             </div>
+
+                            <div class="col-lg-7 offset-lg-1">
+
+                                <div class="row">
+
+                                    <div class="col-lg-6">
+                                        <h3 class="lh-sm mb-4 mt-5" style="font-size: 2.1875rem;">Lorem ipsum dolor sit amet, 
+                                            consectetur adipiscing elit, 
+                                            sed do eiusmod tempor</h3>
+                                        <p class="lh-base mb-lg-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>                                            
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <img src="./images/shop/about_us_bookroom.png" class="img-full rounded" alt="">
+                                    </div>
+
+                                    <div class="col-lg-4 mt-5">
+                                        <img src="./images/shop/about_us_kitchen.png" class="img-full rounded" alt="">
+                                    </div>
+
+                                    <div class="col-lg-8">
+
+                                        <p class="lh-base mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                        <p class="lh-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                        <p class="lh-base">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                        <p class="lh-base mb-lg-0">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
-                </div>
-                <!-- #About Us -->
+
+                </div><!-- #About Us -->
 
                 <!-- Antique
                 ============================================= -->
                 <div class="section pt-0">
-                    <div
-                        class="antique row row-cols-sm-1 row-cols-md-1 row-cols-lg-1 g-0 flex row-cols-xl-2 justify-content-between">
-                        <div class="desc col-10">
-                            <div class="caption">
-                                New Arrival
+
+                    <div class="container">
+
+                        <div class="row bg-light align-items-center px-5">
+
+                            <div class="col-lg-4">
+                                <h4 class="my-4">New Arrival</h4>
+                                <h2 class="fw-semi-bold lh-sm mb-3">Antique Luxury Sofa Boac</h2>
+                                <p class="lh-base mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                <div class="d-flex gap-3 align-items-center mb-5">
+                                    <h4 class="mb-0">$699</h4>
+                                    <button class="btn btn-primary text-white">Add To Cart</button>
+                                </div>
                             </div>
-                            <div class="title">
-                                <h1>
-                                    Antique Luxury Sofa Boac
-                                </h1>
+
+                            <div class="col-lg-8">
+                                <img src="images/shop/antique.png" class="img-fluid" alt="Product Image">
                             </div>
-                            <div class="body">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                    gravida.
-                                </p>
-                            </div>
-                            <div class="footer row">
-                                <h3 class="col-3">$699</h3>
-                                <button class="col-4">Add To Cart</button>
-                            </div>
+
                         </div>
-                        <div class="antique-img col-10">
-                            <img src="images/shop/antique.png" alt="Product Image">
-                        </div>
+
                     </div>
+
                 </div>
                 <!--Antique-->
 
                 <!-- Best Sellers
                 ============================================= -->
-                <div class="container-fluid">
-                    <div class="heading-block">
-                        <h2 class="title">Best Seller</h2>
-                        <hr class="dash offset-1">
-                        <a href="#">See All Products</a>
-                    </div>
-                    <div class="row row-cols-1  row-cols-md-3 row-cols-lg-3 row-cols-xl-5 product-container">
-                        <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt--5">
-                            <div class="product ">
-                                <div class="product-details">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div class="me-1">
-                                            <a href="#">
-                                                <h4 class="product-title">Boca Navi</h4>
-                                            </a>
-                                        </div>
-                                        <div class="me-1">
-                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="product-categories">
-                                        <a href="#">Armchair </a>
-                                    </div>
-                                    <div class="product-image">
-                                        <a href="#"><img src="images/shop/best_seller_bedroom_lamp.png"
-                                                alt="Product Image" class="img-fluid"></a>
-                                    </div>
-                                    <div class="product-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-between product-footer">
-                                        <div class="product-price">
-                                            $199
-                                        </div>
-                                        <div class="add-to-cart">
-                                            <button>Add To Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="heading-block d-flex align-items-center">
+                            <h2 class="title">Best Seller</h2>
+                            <a href="#">See All Products</a>
                         </div>
-                        <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5">
-                            <div class="product">
-                                <div class="sale-mark">
+
+                        <div class="row">
+
+                            <div class="col-lg">
+
+                                <div class="product">
                                     <div class="product-details">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <div class="me-1">
-                                                <a href="#">
-                                                    <h4 class="product-title">Boca Navi</h4>
-                                                </a>
-                                            </div>
-                                            <div class="me-1">
-                                                <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
-                                            </div>
+                                            <h4 class="product-title">Boca Navi</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                         </div>
                                         <div class="product-categories">
                                             <a href="#">Armchair </a>
                                         </div>
                                         <div class="product-image">
-                                            <a href="#"><img src="images/shop/best_seller_marble_table.png"
-                                                    alt="Product Image" class="img-fluid"></a>
+                                            <a href="#"><img src="images/shop/best_seller_bedroom_lamp.png" alt="Product Image" class="img-fluid"></a>
                                         </div>
-                                        <div class="product-description">
+                                        <p class="fs-6 lh-base mt-4 mb-3">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et
-                                            dolore magna
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between product-footer">
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
                                             <div class="product-price">
                                                 $199
                                             </div>
-                                            <div class="add-to-cart">
-                                                <button>Add To Cart</button>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
-                        </div>
-                        <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5">
-                            <div class="discharge ">
-                                <div class="product-details">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div class="me-1">
-                                            <a href="#">
-                                                <h4 class="product-title">-50% OFF</h4>
-                                            </a>
-                                        </div>
-                                        <div class="me-1">
+
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Marble table</h4>
                                             <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                         </div>
+                                        <div class="product-categories">
+                                            <a href="#">Table </a>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/best_seller_marble_table.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                <del>$699</del>
+                                                $350
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="product-categories">
-                                        <a href="#">Only 1 Day! </a>
-                                    </div>
+                                    <div class="onsale">Sale</div>
                                 </div>
 
-                                <div class="footer">
-                                    <div class="product-headline">
-                                        SALE OF SOFAS
-                                    </div>
-                                    <div class="product-former-price">
-                                        From $250
-                                    </div>
-                                    <div>
-                                        <div class="go-to-category">
-                                            <button>Go To Categories</button>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5">
-                            <div class="product ">
-                                <div class="new-mark">
+
+                            <div class="col-lg">
+
+                                <div class="discharge ">
                                     <div class="product-details">
                                         <div class="d-flex align-items-center justify-content-between">
                                             <div class="me-1">
                                                 <a href="#">
-                                                    <h4 class="product-title">Boca Navi</h4>
+                                                    <h4 class="product-title">-50% OFF</h4>
                                                 </a>
-                                            </div>
-                                            <div class="me-1">
-                                                <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                             </div>
                                         </div>
                                         <div class="product-categories">
-                                            <a href="#">Armchair </a>
+                                            <a href="#">Only 1 Day! </a>
                                         </div>
-                                        <div class="product-image">
-                                            <a href="#"><img src="images/shop/best_seller_bed1.png" alt="Product Image"
-                                                    class="img-fluid"></a>
+                                    </div>
+    
+                                    <div class="footer">
+                                        <div class="product-headline">
+                                            SALE OF SOFAS
                                         </div>
-                                        <div class="product-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et
-                                            dolore magna
+                                        <div class="product-former-price">
+                                            From $250
                                         </div>
-                                        <div class="d-flex align-items-center justify-content-between product-footer">
-                                            <div class="product-price">
-                                                $199
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <button>Add To Cart</button>
+                                        <div>
+                                            <div class="go-to-category">
+                                                <button>Go To Categories</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col ps-sm-0 mt-lg-5 mt-md-5 mt-5">
-                            <div class="product ">
-                                <div class="product-details">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div class="me-1">
-                                            <a href="#">
-                                                <h4 class="product-title">Boca Navi</h4>
-                                            </a>
-                                        </div>
-                                        <div class="me-1">
+
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Bed Dyson D1</h4>
                                             <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                         </div>
-                                    </div>
-                                    <div class="product-categories">
-                                        <a href="#">Armchair </a>
-                                    </div>
-                                    <div class="product-image">
-                                        <a href="#">
-                                            <img src="images/shop/best_seller_bed2.png" alt="Product Image"
-                                                class="img-fluid">
-                                        </a>
-                                    </div>
-                                    <div class="product-description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et
-                                        dolore magna
-                                    </div>
-                                    <div class=" product-footer">
-                                        <div class="product-price">
-                                            $199
+                                        <div class="product-categories">
+                                            <a href="#">Bed</a>
                                         </div>
-                                        <div class="add-to-cart">
-                                            <button>Add To Cart</button>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/best_seller_bed1.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                $699
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="onnew">New</div>
                                 </div>
+                                
+
                             </div>
+                            
+                            <div class="col-lg">
+
+                                <div class="product ">
+                                    <div class="product-details">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <h4 class="product-title">Bed MX 41</h4>
+                                            <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                        </div>
+                                        <div class="product-categories">
+                                            <a href="#">Bed</a>
+                                        </div>
+                                        <div class="product-image">
+                                            <a href="#"><img src="images/shop/product5.png" alt="Product Image" class="img-fluid"></a>
+                                        </div>
+                                        <p class="fs-6 lh-base mt-4 mb-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="product-price">
+                                                $127
+                                            </div>
+                                            <div class="product-btns">
+                                                <a href="#" class="add-to-cart">Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
+
                     </div>
 
                 </div><!-- Best Sellers -->
 
                 <!-- Our News
                 ============================================= -->
-                <div class="section container-fluid">
-                    <div class="heading-block">
-                        <h2 class="title">Our News</h2>
-                        <hr class="dash offset-1">
-                        <a href="#">See All News</a>
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="heading-block d-flex align-items-center">
+                            <h2 class="title">Our News</h2>
+                            <a href="#">See All News</a>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-lg-5">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/posts/post1.png" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="entry-meta mb-2">
+                                            <a href="#">31 May 2021</a>
+                                        </div>
+                                        <h4 class="entry-title lh-sm mb-3">An American woman equipped a study in the toilet so that her children and husband do </h4>
+                                        <p class="lh-base mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                            <div class="col-lg-7">
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/shop/new2.png" alt="">
+                                    </div>
+                                    <div class="post-content position-absolute bottom-0 px-5">
+                                        <div class="entry-meta mb-2">
+                                            <a href="#" class="text-white">31 May 2021</a>
+                                        </div>
+                                        <h4 class="entry-title lh-sm mb-3 h3 text-white">Seed-like guest houses built <br>in Chinese forest </h4>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-7">
+
+                                <div class="subscribe bg-light rounded-3">
+
+                                    <div class="row">
+
+                                        <div class="col-lg-7">
+                                            
+                                            <div class="heading-block mb-2">
+                                                <h2>Subscribe To <br>Our News</h2>
+                                            </div>
+
+                                            <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis </p>
+
+                                            <div class="d-flex gap-3">
+                                                <input type="text" class="form-control bg-transparent" placeholder="Enter Email">
+                                                <button class="btn btn-primary">Subscribe</button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="subscribe-thumbnail">
+                                        <img src="./images/shop/mailbox.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/posts/post1.png" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="entry-meta mb-2">
+                                            <a href="#">31 May 2021</a>
+                                        </div>
+                                        <h4 class="entry-title lh-sm mb-3">An American woman equipped a study in the toilet so that her children and husband do </h4>
+                                        <p class="lh-base mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div class="  row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 our-news-1">
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 new1">
-                            <img src="images/posts/post1.png" alt="Product Image" class="img-fluid">
-                            <div class="date ">
-                                31 May 2021
-                            </div>
-                            <div class="title ">
-                                An American woman equipped a study in the toilet so that her children and husband do
-                            </div>
-                            <div class="desc ">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 new2">
-                            <img src="images/shop/new2.png" alt="Product Image" class="img-fluid">
-                            <div class="content">
-                                <div class="date">
-                                    31 May 2021
-                                </div>
-                                <div class="title">
-                                    Seed-like guest houses built in Chinese forest
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 our-news-2  g-0 mt-5">
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 new1 ">
-                            <div class="content">
-                                <div class="title">
-                                    Subscribe To Our News
-                                </div>
-                                <div class="mail">
-                                    <input type="text" placeholder="Enter Email"
-                                        class="form-control form-control-md round-5 border">
-                                    <button>Subscribe</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 new2 mt-xl-0 mt-5">
-                            <img src="images/posts/post1.png" alt="Product Image">
-                            <div class="date px-sm-4 px-lg-2 px-md-2 px-xl-0">
-                                31 May 2021
-                            </div>
-                            <div class="title px-sm-4 px-lg-2 px-md-2 px-xl-0">
-                                An American woman equipped a study in the toilet so that her children and husband do
-                            </div>
-                            <div class="desc px-sm-4 px-lg-2 px-md-2 px-xl-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    
+                </div><!-- Our News -->
 
                 <!-- Partners
                 ============================================= -->
                 <div class="section pt-0">
+                    
+                    <div class="container">
 
-                    <div class="row product-container">
+                        <div class="row">
 
-                        <div class="logos px-0">
-                            <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid">
+                            <div class="logos">
+                                <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo4.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid">
+                                </div>
+                                <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid">
+                                </div>
                             </div>
-                            <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid">
-                            </div>
-                            <div class="logo-item"><img src="images/logos/logo4.png" alt="Logo Image" class="img-fluid">
-                            </div>
-                            <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid">
-                            </div>
-                            <div class="logo-item"><img src="images/logos/logo1.png" alt="Logo Image" class="img-fluid">
-                            </div>
-                            <div class="logo-item"><img src="images/logos/logo3.png" alt="Logo Image" class="img-fluid">
-                            </div>
-                            <div class="logo-item"><img src="images/logos/logo2.png" alt="Logo Image" class="img-fluid">
-                            </div>
+    
                         </div>
 
                     </div>
 
                 </div><!-- #partners -->
 
-                <!-- Footer
-                ============================================= -->
-                <footer id="footer" class="container-fluid">
+            </div>
 
-                    <!-- Footer Main
-                    ============================================= -->
-                    <div id="footer-main">
-                        <div class="product-container ">
-                            <div class="d-flex justify-content-between widget flex-wrap">
-                                <div class="widget-width-13 widget-section  ">
-                                    <img src="images/logo1.png " alt="Saler Logo">
-                                    <p class="widget-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                                        ipsum suspendisse ultrices</p>
-                                </div>
-                                <div class="widget-width-20 widget-border widget-section ">
-                                    <div class=" widget-align-center ">
-                                        <h3 class="widget-title">Living Room</h3>
-                                        <ul class="widget-link">
-                                            <li><a href="#">Sofa</a></li>
-                                            <li><a href="#">Armchair</a></li>
-                                            <li><a href="#">Table</a></li>
-                                            <li><a href="#">Lamp</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-width-17 widget-section ">
-                                    <div class=" widget-align-center ">
-                                        <h3 class="widget-title ">BathRoom</h3>
-                                        <ul class="widget-link">
-                                            <li><a href="#">CurbStone</a></li>
-                                            <li><a href="#">Bath</a></li>
-                                            <li><a href="#">Lamp</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-width-15 widget-border widget-section mt-md-0 mt-5">
-                                    <div class=" widget-align-center ">
-                                        <h3 class="widget-title">Kitchen</h3>
-                                        <ul class="widget-link">
-                                            <li><a href="#">CurbStone</a></li>
-                                            <li><a href="#">Bath</a></li>
-                                            <li><a href="#">Lamp</a></li>
-                                            <li><a href="#">Sofa</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-width-15 widget-border widget-section  mt-md-0 mt-5">
-                                    <div class=" widget-align-center ">
-                                        <h3 class="widget-title">About Us</h3>
-                                        <ul class="widget-link">
-                                            <li><a href="#">Brands</a></li>
-                                            <li><a href="#">Delivery</a></li>
-                                            <li><a href="#">Payment</a></li>
-                                            <li><a href="#">Store</a></li>
-                                            <li><a href="#">Contacts</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="widget-width-20 widget-section  widget-lg-w-full">
-                                    <div class="widget-spacer">
-                                        <h3 class="widget-title mb-0">Follow To Us</h3>
-                                        <ul class="social-icons d-flex ">
-                                            <li><a href="#" target="_blank" title="Facebook"><i
-                                                        class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#" target="_blank" title="Instagram"><i
-                                                        class="fab fa-instagram-square"></i></a></li>
-                                            <li><a href="#" target="_blank" title="Twitter"><i
-                                                        class="fab fa-twitter"></i></a></li>
-                                        </ul>
-                                        <div class="widget-mark ">
-                                            <h3 class="widget-title mb-0">payment methods</h3>
-                                            <div class="widget widget-payment mb-lg-0">
-                                                <div class="widget-content ">
-                                                    <div class="payments d-flex align-items-center">
-                                                        <span class="payment-icon"><img src="images/payments/visa.png"
-                                                                alt="Visa"></span>
-                                                        <span class="payment-icon"><img
-                                                                src="images/payments/mastercard.png"
-                                                                alt="Mastercard"></span>
-                                                        <span class="payment-icon"><img src="images/payments/paypal.png"
-                                                                alt="Paypal"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
+        </section><!-- Content -->
 
-                                        </div>
-                                    </div>
+        <!-- Footer
+        ============================================= -->
+        <footer id="footer">
 
-                                </div>
-                            </div>
+            <!-- Footer Main
+            ============================================= -->
+            <div id="footer-main">
 
-                            <div id="footer-bottom" class="d-flex flex-md-nowrap flex-wrap">
-                                <div class="widget-flex-grow-8">
-                                    <span class="copyright body-font my-1 fs-5">&copy; Copyright
-                                        2020 InteriorSaler</span>
-                                </div>
-                                <div class="widget-flex-grow-2">
-                                    <div class="widget-align-center body-font my-1 fs-5">
-                                        All rights Reserved
-                                    </div>
-                                </div>
-                            </div>
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-lg-2">
+
+                            <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                                <img src="images/logo1.png" alt="Saler Logo" class="mb-3">
+                            </a>
+
+                            <p class="fs-6 text-white-50 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+
                         </div>
 
+                        <div class="col-lg-2 border-end d-flex justify-content-center">
 
-                    </div><!-- #footer-main -->
+                            <div class="widget widget-links">
+                                <h3 class="widget-title">Living Room</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="#">Sofa</a></li>
+                                        <li><a href="#">Armchair</a></li>
+                                        <li><a href="#">Table</a></li>
+                                        <li><a href="#">Lamp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
 
+                        </div>
 
+                        <div class="col-lg-2 border-end d-flex justify-content-center">
 
-                </footer><!-- #footer -->
+                            <div class="widget widget-links">
+                                <h3 class="widget-title">Bathroom</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="#">Curbstone</a></li>
+                                        <li><a href="#">Bath</a></li>
+                                        <li><a href="#">Lamp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2 border-end d-flex justify-content-center">
+
+                            <div class="widget widget-links">
+                                <h3 class="widget-title">Kitchen</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="#">Curbstone</a></li>
+                                        <li><a href="#">Table</a></li>
+                                        <li><a href="#">Armchair</a></li>
+                                        <li><a href="#">Lamp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2 border-end d-flex justify-content-center">
+
+                            <div class="widget widget-links">
+                                <h3 class="widget-title">ABOUT US</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="#">Brands</a></li>
+                                        <li><a href="#">Delivery</a></li>
+                                        <li><a href="#">Payment</a></li>
+                                        <li><a href="#">Stores</a></li>
+                                        <li><a href="#">Contacts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2">
+
+                            <div class="widget widget-social">
+                                <h3 class="widget-title">Follow Us</h3>
+                                <div class="widget-content">
+                                    <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+                                    <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="widget widget-payment">
+                                <h3 class="widget-title">Payment Methods</h3>
+                                <div class="widget-content d-flex align-items-center">
+                                    <span class="payment-icon"><img src="images/payments/visa.png" alt="Visa"></span>
+                                    <span class="payment-icon"><img src="images/payments/mastercard.png" alt="Mastercard"></span>
+                                    <span class="payment-icon"><img src="images/payments/paypal.png" alt="Paypal"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div><!-- #footer-main -->
+
+            <!-- Footer bottom
+            ============================================ -->
+            <div id="footer-bottom">
+
+                <div class="container">
+
+                    <div class="d-flex align-items-center justify-content-between">
+
+                        <p class="mb-lg-0 fs-6 text-white-50">&copy; Copyright 2020 InteriorSaler</p>
+                        <p class="mb-0 fs-6 text-white-50">All rights Reserved</p>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <!-- Go To Top
-            ============================================= -->
-            <div id="gotoTop" class="icon-angle-up"></div>
+        </footer><!-- #footer -->
 
+        <!-- Go To Top
+        ============================================= -->
+        <div id="gotoTop" class="icon-angle-up"></div>
 
-            <!-- External JavaScripts
-	============================================= -->
-
-            <!-- Bootstrap Bundle with Popper -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js" integrity="sha512-3fMsI1vtU2e/tVxZORSEeuMhXnT9By80xlmXlsOku7hNwZSHJjwcOBpmy+uu+fyWwGCLkMvdVbHkeoXdAzBv+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script src="js/main.js"></script>
-
-            <!-- Footer Scripts
-    ============================================= -->
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js" integrity="sha512-3fMsI1vtU2e/tVxZORSEeuMhXnT9By80xlmXlsOku7hNwZSHJjwcOBpmy+uu+fyWwGCLkMvdVbHkeoXdAzBv+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/main.js"></script>
 
 </body>
 

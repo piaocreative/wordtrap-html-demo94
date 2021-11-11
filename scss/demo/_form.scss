@@ -31,3 +31,20 @@ textarea {
         background-size: 100%;
     }
 }
+
+.subscribe {
+    position: relative;
+    padding: 7rem 4rem;
+    z-index: 1;
+
+    .subscribe-thumbnail {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
